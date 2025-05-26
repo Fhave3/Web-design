@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My ID Card</title>
+  <style>
+    /* Page background */
+    body {
+      background-color: #e8f5e9; /* Light green background */
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    /* ID Card box */
+    .id-card {
+      background-color: #ccf2f4; /* Light teal instead of soft brown */
+      border: 3px solid #0077b6;
+      border-radius: 20px;
+      padding: 30px 20px;
+      width: 280px;
+      height: 480px;
+      text-align: center;
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+    }
+
+    /* Image */
+    .id-card img {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 20px;
+      border: 3px solid #0077b6;
+    }
+
+    /* Styling the span labels and text */
+    span {
+      color: #0077b6;
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+
+    p {
+      font-size: 1.1rem;
+      color: #00334d;
+      margin: 8px 0;
+    }
+
+    /* Button style */
+    .hire-btn {
+      margin-top: 20px;
+      padding: 12px 25px;
+      background-color: #0077b6;
+      color: #ccf2f4; /* Same as new card background for consistency */
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      font-size: 1rem;
+      font-weight: bold;
+    }
+
+    .hire-btn:hover {
+      background-color: #005f87;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="id-card">
+    <img src="image/lady.jpg" alt="woman">
+    
+    <p><span>Name:</span> Ayodele Favour</p>
+    <p><span>Department:</span> History and International Studies</p>
+    <p><span>Matric No:</span> 20/15CA114</p>
+    <p><span>Skill:</span> HTML, CSS</p>
+    <p><span>Program:</span> U-Inspire Web Development</p>
+
+    <button class="hire-btn">Hire Me</button>
+  </div>
+
+</body>
+</html>
